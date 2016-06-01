@@ -1,0 +1,164 @@
+SCHM0103
+
+HEADER
+{
+ FREEID 17
+ VARIABLES
+ {
+  #ARCHITECTURE="BEHV"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #ENTITY="decoder_3_8"
+  #LANGUAGE="VHDL"
+  AUTHOR="Admin"
+  COMPANY="4fit"
+  CREATIONDATE="29.04.2016"
+  SOURCE=".\\src\\DECODER_3_8.vhd"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"        use ieee.std_logic_1164.all;"
+   RECT (220,260,620,439)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  SIGNALASSIGN  2, 0, 0
+  {
+   LABEL "block_11"
+   TEXT "with I select O <= \"10000000\" when \"000\", \"01000000\" when \"001\", \"00100000\" when \"010\", \"00010000\" when \"011\", \"00001000\" when \"100\", \"00000100\" when \"101\", \"00000010\" when \"110\", \"00000001\" when \"111\", \"00000000\" when others;"
+   RECT (940,240,1341,340)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+   VTX (  9, 13 )
+  }
+  INSTANCE  3, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusInput"
+    #LIBRARY="#terminals"
+    #REFERENCE="I(2:0)"
+    #SYMBOL="BusInput"
+    #VHDL_TYPE="std_logic_vector"
+   }
+   COORD (800,260)
+   VERTEXES ( (2,14) )
+  }
+  INSTANCE  4, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusOutput"
+    #DOWNTO="0"
+    #LIBRARY="#terminals"
+    #REFERENCE="O(0:7)"
+    #SYMBOL="BusOutput"
+    #VHDL_TYPE="std_logic_vector"
+   }
+   COORD (1440,260)
+   VERTEXES ( (2,10) )
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (748,260,748,260)
+   ALIGN 6
+   PARENT 3
+  }
+  TEXT  6, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1492,260,1492,260)
+   ALIGN 4
+   PARENT 4
+  }
+  NET BUS  7, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="I(2:0)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  NET BUS  8, 0, 0
+  {
+   VARIABLES
+   {
+    #DOWNTO="0"
+    #NAME="O(0:7)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  VTX  9, 0, 0
+  {
+   COORD (1341,260)
+  }
+  VTX  10, 0, 0
+  {
+   COORD (1440,260)
+  }
+  BUS  11, 0, 0
+  {
+   NET 8
+   VTX 9, 10
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  12, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1390,260,1390,260)
+   ALIGN 9
+   PARENT 11
+  }
+  VTX  13, 0, 0
+  {
+   COORD (940,260)
+  }
+  VTX  14, 0, 0
+  {
+   COORD (800,260)
+  }
+  BUS  15, 0, 0
+  {
+   NET 7
+   VTX 13, 14
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  16, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (870,260,870,260)
+   ALIGN 9
+   PARENT 15
+  }
+ }
+ 
+}
+

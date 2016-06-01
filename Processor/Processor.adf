@@ -1,0 +1,170 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=Processor
+
+[Library]
+Processor=.\Processor.lib
+
+[$LibMap$]
+Processor=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=processor|behv|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/ADDER.vhd=-1
+/ADDSUB.vhd=-1
+/CONTROL.vhd=-1
+/COUNTER.vhd=-1
+/DECODER_3_8.vhd=-1
+/DEMONSTRATION.vhd=-1
+/IR.vhd=-1
+/MUX10TO1.vhd=-1
+/PROCESSOR.vhd=-1
+/REGISTER_9.vhd=-1
+/REGISTER_16.vhd=-1
+/SUB.vhd=-1
+/SUBTRACTOR.vhd=-1
+/T_FF.vhd=-1
+/TEST_CONTROL.vhd=-1
+/TEST_COUNTER.vhd=-1
+/TEST_PROCESSOR.vhd=-1
+/TESTMUX.vhd=-1
+/adder.bde=-1
+/addsub.bde=-1
+/control.bde=-1
+/counter.bde=-1
+/decoder_3_8.bde=-1
+/demonstration.bde=-1
+/ir.bde=-1
+/mux10to1.bde=-1
+/processor.bde=-1
+/register_16.bde=-1
+/register_9.bde=-1
+/subtractor.bde=-1
+/sub.bde=-1
+/testmux.bde=-1
+/test_control.bde=-1
+/test_counter.bde=-1
+/test_processor.bde=-1
+/t_ff.bde=-1
+
+[Files.Data]
+.\src\ADDER.vhd=VHDL Source Code
+.\src\ADDSUB.vhd=VHDL Source Code
+.\src\CONTROL.vhd=VHDL Source Code
+.\src\COUNTER.vhd=VHDL Source Code
+.\src\DECODER_3_8.vhd=VHDL Source Code
+.\src\DEMONSTRATION.vhd=VHDL Source Code
+.\src\IR.vhd=VHDL Source Code
+.\src\MUX10TO1.vhd=VHDL Source Code
+.\src\PROCESSOR.vhd=VHDL Source Code
+.\src\REGISTER_9.vhd=VHDL Source Code
+.\src\REGISTER_16.vhd=VHDL Source Code
+.\src\SUB.vhd=VHDL Source Code
+.\src\SUBTRACTOR.vhd=VHDL Source Code
+.\src\T_FF.vhd=VHDL Source Code
+.\src\TEST_CONTROL.vhd=VHDL Source Code
+.\src\TEST_COUNTER.vhd=VHDL Source Code
+.\src\TEST_PROCESSOR.vhd=VHDL Source Code
+.\src\TESTMUX.vhd=VHDL Source Code
+.\src\adder.bde=Block Diagram
+.\src\addsub.bde=Block Diagram
+.\src\control.bde=Block Diagram
+.\src\counter.bde=Block Diagram
+.\src\decoder_3_8.bde=Block Diagram
+.\src\demonstration.bde=Block Diagram
+.\src\ir.bde=Block Diagram
+.\src\mux10to1.bde=Block Diagram
+.\src\processor.bde=Block Diagram
+.\src\register_16.bde=Block Diagram
+.\src\register_9.bde=Block Diagram
+.\src\subtractor.bde=Block Diagram
+.\src\sub.bde=Block Diagram
+.\src\testmux.bde=Block Diagram
+.\src\test_control.bde=Block Diagram
+.\src\test_counter.bde=Block Diagram
+.\src\test_processor.bde=Block Diagram
+.\src\t_ff.bde=Block Diagram
+.\compile\processor.vhd=VHDL Source Code
+.\compile\adder.vhd=VHDL Source Code
+.\compile\addsub.vhd=VHDL Source Code
+.\compile\control.vhd=VHDL Source Code
+.\compile\counter.vhd=VHDL Source Code
+.\compile\decoder_3_8.vhd=VHDL Source Code
+.\compile\demonstration.vhd=VHDL Source Code
+.\compile\ir.vhd=VHDL Source Code
+.\compile\mux10to1.vhd=VHDL Source Code
+.\compile\register_16.vhd=VHDL Source Code
+.\compile\register_9.vhd=VHDL Source Code
+.\compile\subtractor.vhd=VHDL Source Code
+.\compile\sub.vhd=VHDL Source Code
+.\compile\testmux.vhd=VHDL Source Code
+.\compile\test_control.vhd=VHDL Source Code
+.\compile\test_counter.vhd=VHDL Source Code
+.\compile\test_processor.vhd=VHDL Source Code
+.\compile\t_ff.vhd=VHDL Source Code
+
+[file_out:/adder.bde]
+/\compile\adder.vhd=-1
+[file_out:/addsub.bde]
+/\compile\addsub.vhd=-1
+[file_out:/control.bde]
+/\compile\control.vhd=-1
+[file_out:/counter.bde]
+/\compile\counter.vhd=-1
+[file_out:/decoder_3_8.bde]
+/\compile\decoder_3_8.vhd=-1
+[file_out:/demonstration.bde]
+/\compile\demonstration.vhd=-1
+[file_out:/ir.bde]
+/\compile\ir.vhd=-1
+[file_out:/mux10to1.bde]
+/\compile\mux10to1.vhd=-1
+[file_out:/processor.bde]
+/\compile\processor.vhd=-1
+[file_out:/register_16.bde]
+/\compile\register_16.vhd=-1
+[file_out:/register_9.bde]
+/\compile\register_9.vhd=-1
+[file_out:/subtractor.bde]
+/\compile\subtractor.vhd=-1
+[file_out:/sub.bde]
+/\compile\sub.vhd=-1
+[file_out:/testmux.bde]
+/\compile\testmux.vhd=-1
+[file_out:/test_control.bde]
+/\compile\test_control.vhd=-1
+[file_out:/test_counter.bde]
+/\compile\test_counter.vhd=-1
+[file_out:/test_processor.bde]
+/\compile\test_processor.vhd=-1
+[file_out:/t_ff.bde]
+/\compile\t_ff.vhd=-1

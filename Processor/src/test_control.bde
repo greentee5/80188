@@ -1,0 +1,1472 @@
+SCHM0103
+
+HEADER
+{
+ FREEID 147
+ VARIABLES
+ {
+  #ARCHITECTURE="TB"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #ENTITY="test_control"
+  #LANGUAGE="VHDL"
+  AUTHOR="Admin"
+  COMPANY="4fit"
+  CREATIONDATE="29.04.2016"
+  SOURCE=".\\src\\TEST_CONTROL.vhd"
+ }
+ SYMBOL "Processor" "CONTROL" "CONTROL"
+ {
+  HEADER
+  {
+   VARIABLES
+   {
+    #DESCRIPTION=""
+    #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+    #LANGUAGE="VHDL"
+    #MODIFIED="1461227633"
+   }
+  }
+  PAGE "" 
+  {
+   PAGEHEADER
+   {
+    RECT (0,0,240,440)
+    FREEID 30
+   }
+   
+   BODY
+   {
+    RECT  1, -1, 0
+    {
+     VARIABLES
+     {
+      #OUTLINE_FILLING="1"
+     }
+     AREA (20,0,220,440)
+    }
+    TEXT  3, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,26,25,58)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 2
+    }
+    TEXT  5, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (215,26,215,58)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 4
+    }
+    TEXT  7, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,66,25,98)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 6
+    }
+    TEXT  9, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (215,66,215,98)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 8
+    }
+    TEXT  11, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,106,25,138)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 10
+    }
+    TEXT  13, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (215,106,215,138)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 12
+    }
+    TEXT  15, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,146,25,178)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 14
+    }
+    TEXT  17, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (215,146,215,178)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 16
+    }
+    TEXT  19, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (215,186,215,218)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 18
+    }
+    TEXT  21, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (215,226,215,258)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 20
+    }
+    TEXT  23, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (215,266,215,298)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 22
+    }
+    TEXT  25, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (215,306,215,338)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 24
+    }
+    TEXT  27, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (215,346,215,378)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 26
+    }
+    TEXT  29, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (215,386,215,418)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 28
+    }
+    PIN  2, 0, 0
+    {
+     COORD (0,40)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #DOWNTO="1"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="CNT(1:0)"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  4, 0, 0
+    {
+     COORD (240,40)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="ADDSUB"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+    PIN  6, 0, 0
+    {
+     COORD (0,80)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #DOWNTO="0"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="INS(0:8)"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  8, 0, 0
+    {
+     COORD (240,80)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="A_IN"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+    PIN  10, 0, 0
+    {
+     COORD (0,120)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="RESETN"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  12, 0, 0
+    {
+     COORD (240,120)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="CLR"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+    PIN  14, 0, 0
+    {
+     COORD (0,160)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="RUN"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  16, 0, 0
+    {
+     COORD (240,160)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="DIN_OUT"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+    PIN  18, 0, 0
+    {
+     COORD (240,200)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="DONE"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+    PIN  20, 0, 0
+    {
+     COORD (240,240)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="G_IN"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+    PIN  22, 0, 0
+    {
+     COORD (240,280)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="G_OUT"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+    PIN  24, 0, 0
+    {
+     COORD (240,320)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="IR_IN"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+    PIN  26, 0, 0
+    {
+     COORD (240,360)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #DOWNTO="0"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="R_IN(0:7)"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+    PIN  28, 0, 0
+    {
+     COORD (240,400)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #DOWNTO="0"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="R_OUT(0:7)"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+   }
+  }
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"        use ieee.std_logic_1164.all;"
+   RECT (220,260,620,439)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  PROCESS  2, 0, 0
+  {
+   LABEL "process_42"
+   TEXT 
+"process\n"+
+"                         variable ERR_CNT : INTEGER := 0;\n"+
+"                       begin\n"+
+"                         T_RUN <= '1';\n"+
+"                         T_RESET <= '0';\n"+
+"                         T_CNT <= \"00\";\n"+
+"                         T_INS <= \"000100111\";\n"+
+"                         wait for 1NS;\n"+
+"                         T_CNT <= \"01\";\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_R_OUT(7) = '1') report \"ERROR1A!\" severity ERROR;\n"+
+"                         if (T_R_OUT(7) /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_R_IN(4) = '1') report \"ERROR1B!\" severity ERROR;\n"+
+"                         if (T_R_IN(4) /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_DONE = '1') report \"ERROR1C!\" severity ERROR;\n"+
+"                         if (T_DONE /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 10NS;\n"+
+"                         T_CNT <= \"00\";\n"+
+"                         T_INS <= \"001011---\";\n"+
+"                         wait for 1NS;\n"+
+"                         T_CNT <= \"01\";\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_R_IN(3) = '1') report \"ERROR2A!\" severity ERROR;\n"+
+"                         if (T_R_IN(3) /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 1NS;\n"+
+"                         T_CNT <= \"10\";\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_DIN_OUT = '1') report \"ERROR2B!\" severity ERROR;\n"+
+"                         if (T_DIN_OUT /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_DONE = '1') report \"ERROR2B!\" severity ERROR;\n"+
+"                         if (T_DONE /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 10NS;\n"+
+"                         T_CNT <= \"00\";\n"+
+"                         T_INS <= \"010001001\";\n"+
+"                         wait for 1NS;\n"+
+"                         T_CNT <= \"01\";\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_R_OUT(1) = '1') report \"ERROR3A!\" severity ERROR;\n"+
+"                         if (T_R_OUT(1) /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_A_IN = '1') report \"ERROR3B!\" severity ERROR;\n"+
+"                         if (T_A_IN /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 1NS;\n"+
+"                         T_CNT <= \"10\";\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_R_OUT(1) = '1') report \"ERROR3C!\" severity ERROR;\n"+
+"                         if (T_R_OUT(1) /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_ADDSUB = '0') report \"ERROR3D!\" severity ERROR;\n"+
+"                         if (T_ADDSUB /= '0') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_G_IN = '1') report \"ERROR3E!\" severity ERROR;\n"+
+"                         if (T_G_IN /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         T_CNT <= \"11\";\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_R_IN(1) = '1') report \"ERROR3F!\" severity ERROR;\n"+
+"                         if (T_R_IN(1) /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_DONE = '1') report \"ERROR3G!\" severity ERROR;\n"+
+"                         if (T_DONE /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_G_OUT = '1') report \"ERROR3H!\" severity ERROR;\n"+
+"                         if (T_G_OUT /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 10NS;\n"+
+"                         T_CNT <= \"00\";\n"+
+"                         T_INS <= \"011111011\";\n"+
+"                         wait for 1NS;\n"+
+"                         T_CNT <= \"01\";\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_R_OUT(7) = '1') report \"ERROR4A!\" severity ERROR;\n"+
+"                         if (T_R_OUT(7) /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_A_IN = '1') report \"ERROR4B!\" severity ERROR;\n"+
+"                         if (T_A_IN /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 1NS;\n"+
+"                         T_CNT <= \"10\";\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_R_OUT(3) = '1') report \"ERROR4C!\" severity ERROR;\n"+
+"                         if (T_R_OUT(3) /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_ADDSUB = '1') report \"ERROR3D!\" severity ERROR;\n"+
+"                         if (T_ADDSUB /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_G_IN = '1') report \"ERROR4E!\" severity ERROR;\n"+
+"                         if (T_G_IN /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         T_CNT <= \"11\";\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_R_IN(7) = '1') report \"ERROR4F!\" severity ERROR;\n"+
+"                         if (T_R_IN(7) /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_DONE = '1') report \"ERROR4G!\" severity ERROR;\n"+
+"                         if (T_DONE /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         assert (T_G_OUT = '1') report \"ERROR4H!\" severity ERROR;\n"+
+"                         if (T_G_OUT /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 10NS;\n"+
+"                         T_CNT <= \"00\";\n"+
+"                         wait for 1NS;\n"+
+"                         T_CNT <= \"01\";\n"+
+"                         T_INS <= \"011111011\";\n"+
+"                         T_RESET <= '1';\n"+
+"                         wait for 1NS;\n"+
+"                         for J in 0 to 7 loop\n"+
+"                             assert (T_R_OUT(J) = '0') report \"ERROR5A!\" severity ERROR;\n"+
+"                             if (T_R_OUT(J) /= '0') then\n"+
+"                                ERR_CNT := ERR_CNT + 1;\n"+
+"                             end if;\n"+
+"                         end loop;\n"+
+"                         for A in 0 to 7 loop\n"+
+"                             assert (T_R_IN(A) = '0') report \"ERROR5B!\" severity ERROR;\n"+
+"                             if (T_R_IN(A) /= '0') then\n"+
+"                                ERR_CNT := ERR_CNT + 1;\n"+
+"                             end if;\n"+
+"                         end loop;\n"+
+"                         assert (T_DONE = '0') report \"ERROR5C!\" severity ERROR;\n"+
+"                         if (T_DONE /= '0') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 10NS;\n"+
+"                         T_CNT <= \"00\";\n"+
+"                         T_RUN <= '0';\n"+
+"                         T_RESET <= '0';\n"+
+"                         wait for 1NS;\n"+
+"                         T_CNT <= \"01\";\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_CLR = '1') report \"ERROR6A!\" severity ERROR;\n"+
+"                         if (T_CLR /= '1') then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 10NS;\n"+
+"                         if ERR_CNT = 0 then\n"+
+"                            assert FALSE report \"TESTBENCH OF CONTROL COMPLETED SUCCESSFULLY!\" severity NOTE;\n"+
+"                         else \n"+
+"                            assert FALSE report \"SOMETHING WRONG. :(\" severity ERROR;\n"+
+"                         end if;\n"+
+"                         wait;\n"+
+"                       end process;\n"+
+"                      "
+   RECT (1220,300,1621,700)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWTEXT
+   VTX (  20, 24, 28, 32, 37, 40, 48, 52, 64, 76, 84, 92, 96 )
+   VARIABLES
+   {
+    #UPDATE_SENS_LIST="0"
+   }
+  }
+  INSTANCE  3, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="CONTROL"
+    #LIBRARY="Processor"
+    #REFERENCE="U_CONTROL"
+    #SYMBOL="CONTROL"
+   }
+   COORD (820,240)
+   VERTEXES ( (8,36), (12,41), (16,44), (20,56), (24,60), (4,68), (18,72), (26,80), (22,88), (28,100), (2,104), (6,108), (10,112), (14,116) )
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (820,240,820,240)
+   ALIGN 8
+   PARENT 3
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#COMPONENT"
+   RECT (820,680,820,680)
+   PARENT 3
+  }
+  NET WIRE  6, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_IR_IN"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET WIRE  7, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_A_IN"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET WIRE  8, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_ADDSUB"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET WIRE  9, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_CLR"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET BUS  10, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_CNT(1:0)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  NET WIRE  11, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_DIN_OUT"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET WIRE  12, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_DONE"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET WIRE  13, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_G_IN"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET WIRE  14, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_G_OUT"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET BUS  15, 0, 0
+  {
+   VARIABLES
+   {
+    #DOWNTO="0"
+    #NAME="T_INS(0:8)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  NET BUS  16, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_R_IN(7:0)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  NET BUS  17, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_R_OUT(7:0)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  NET WIRE  18, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_RESET"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET WIRE  19, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_RUN"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  VTX  20, 0, 0
+  {
+   COORD (1621,320)
+  }
+  VTX  21, 0, 0
+  {
+   COORD (1700,320)
+  }
+  BUS  22, 0, 0
+  {
+   NET 10
+   VTX 20, 21
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  23, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1660,320,1660,320)
+   ALIGN 9
+   PARENT 22
+  }
+  VTX  24, 0, 0
+  {
+   COORD (1621,340)
+  }
+  VTX  25, 0, 0
+  {
+   COORD (1720,340)
+  }
+  BUS  26, 0, 0
+  {
+   NET 15
+   VTX 24, 25
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  27, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1670,340,1670,340)
+   ALIGN 9
+   PARENT 26
+  }
+  VTX  28, 0, 0
+  {
+   COORD (1621,360)
+  }
+  VTX  29, 0, 0
+  {
+   COORD (1740,360)
+  }
+  WIRE  30, 0, 0
+  {
+   NET 18
+   VTX 28, 29
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  31, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1680,360,1680,360)
+   ALIGN 9
+   PARENT 30
+  }
+  VTX  32, 0, 0
+  {
+   COORD (1621,380)
+  }
+  VTX  33, 0, 0
+  {
+   COORD (1760,380)
+  }
+  WIRE  34, 0, 0
+  {
+   NET 19
+   VTX 32, 33
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  35, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1690,380,1690,380)
+   ALIGN 9
+   PARENT 34
+  }
+  VTX  36, 0, 0
+  {
+   COORD (1060,320)
+  }
+  VTX  37, 0, 0
+  {
+   COORD (1220,320)
+  }
+  WIRE  38, 0, 0
+  {
+   NET 7
+   VTX 36, 37
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  39, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1140,320,1140,320)
+   ALIGN 9
+   PARENT 38
+  }
+  VTX  40, 0, 0
+  {
+   COORD (1220,360)
+  }
+  VTX  41, 0, 0
+  {
+   COORD (1060,360)
+  }
+  WIRE  42, 0, 0
+  {
+   NET 9
+   VTX 40, 41
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  43, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1140,360,1140,360)
+   ALIGN 9
+   PARENT 42
+  }
+  VTX  44, 0, 0
+  {
+   COORD (1060,400)
+  }
+  VTX  45, 0, 0
+  {
+   COORD (1140,400)
+  }
+  WIRE  46, 0, 0
+  {
+   NET 11
+   VTX 44, 45
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  47, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1100,400,1100,400)
+   ALIGN 9
+   PARENT 46
+  }
+  VTX  48, 0, 0
+  {
+   COORD (1220,380)
+  }
+  VTX  49, 0, 0
+  {
+   COORD (1140,380)
+  }
+  WIRE  50, 0, 0
+  {
+   NET 11
+   VTX 48, 49
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  51, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1180,380,1180,380)
+   ALIGN 9
+   PARENT 50
+  }
+  VTX  52, 0, 0
+  {
+   COORD (1220,420)
+  }
+  VTX  53, 0, 0
+  {
+   COORD (1140,420)
+  }
+  WIRE  54, 0, 0
+  {
+   NET 13
+   VTX 52, 53
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  55, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1180,420,1180,420)
+   ALIGN 9
+   PARENT 54
+  }
+  VTX  56, 0, 0
+  {
+   COORD (1060,480)
+  }
+  VTX  57, 0, 0
+  {
+   COORD (1140,480)
+  }
+  WIRE  58, 0, 0
+  {
+   NET 13
+   VTX 56, 57
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  59, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1100,480,1100,480)
+   ALIGN 9
+   PARENT 58
+  }
+  VTX  60, 0, 0
+  {
+   COORD (1060,560)
+  }
+  VTX  61, 0, 0
+  {
+   COORD (1140,560)
+  }
+  WIRE  62, 0, 0
+  {
+   NET 6
+   VTX 60, 61
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  63, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1100,560,1100,560)
+   ALIGN 9
+   PARENT 62
+  }
+  VTX  64, 0, 0
+  {
+   COORD (1220,340)
+  }
+  VTX  65, 0, 0
+  {
+   COORD (1160,340)
+  }
+  WIRE  66, 0, 0
+  {
+   NET 8
+   VTX 64, 65
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  67, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1190,340,1190,340)
+   ALIGN 9
+   PARENT 66
+  }
+  VTX  68, 0, 0
+  {
+   COORD (1060,280)
+  }
+  VTX  69, 0, 0
+  {
+   COORD (1160,280)
+  }
+  WIRE  70, 0, 0
+  {
+   NET 8
+   VTX 68, 69
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  71, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1110,280,1110,280)
+   ALIGN 9
+   PARENT 70
+  }
+  VTX  72, 0, 0
+  {
+   COORD (1060,440)
+  }
+  VTX  73, 0, 0
+  {
+   COORD (1160,440)
+  }
+  WIRE  74, 0, 0
+  {
+   NET 12
+   VTX 72, 73
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  75, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1110,440,1110,440)
+   ALIGN 9
+   PARENT 74
+  }
+  VTX  76, 0, 0
+  {
+   COORD (1220,400)
+  }
+  VTX  77, 0, 0
+  {
+   COORD (1160,400)
+  }
+  WIRE  78, 0, 0
+  {
+   NET 12
+   VTX 76, 77
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  79, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1190,400,1190,400)
+   ALIGN 9
+   PARENT 78
+  }
+  VTX  80, 0, 0
+  {
+   COORD (1060,600)
+  }
+  VTX  81, 0, 0
+  {
+   COORD (1160,600)
+  }
+  BUS  82, 0, 0
+  {
+   NET 16
+   VTX 80, 81
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  83, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1110,600,1110,600)
+   ALIGN 9
+   PARENT 82
+  }
+  VTX  84, 0, 0
+  {
+   COORD (1220,460)
+  }
+  VTX  85, 0, 0
+  {
+   COORD (1160,460)
+  }
+  BUS  86, 0, 0
+  {
+   NET 16
+   VTX 84, 85
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  87, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1190,460,1190,460)
+   ALIGN 9
+   PARENT 86
+  }
+  VTX  88, 0, 0
+  {
+   COORD (1060,520)
+  }
+  VTX  89, 0, 0
+  {
+   COORD (1180,520)
+  }
+  WIRE  90, 0, 0
+  {
+   NET 14
+   VTX 88, 89
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  91, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1120,520,1120,520)
+   ALIGN 9
+   PARENT 90
+  }
+  VTX  92, 0, 0
+  {
+   COORD (1220,440)
+  }
+  VTX  93, 0, 0
+  {
+   COORD (1180,440)
+  }
+  WIRE  94, 0, 0
+  {
+   NET 14
+   VTX 92, 93
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  95, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1200,440,1200,440)
+   ALIGN 9
+   PARENT 94
+  }
+  VTX  96, 0, 0
+  {
+   COORD (1220,480)
+  }
+  VTX  97, 0, 0
+  {
+   COORD (1200,480)
+  }
+  BUS  98, 0, 0
+  {
+   NET 17
+   VTX 96, 97
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  99, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1210,480,1210,480)
+   ALIGN 9
+   PARENT 98
+  }
+  VTX  100, 0, 0
+  {
+   COORD (1060,640)
+  }
+  VTX  101, 0, 0
+  {
+   COORD (1200,640)
+  }
+  BUS  102, 0, 0
+  {
+   NET 17
+   VTX 100, 101
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  103, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1130,640,1130,640)
+   ALIGN 9
+   PARENT 102
+  }
+  VTX  104, 0, 0
+  {
+   COORD (820,280)
+  }
+  VTX  105, 0, 0
+  {
+   COORD (740,280)
+  }
+  BUS  106, 0, 0
+  {
+   NET 10
+   VTX 104, 105
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  107, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (780,280,780,280)
+   ALIGN 9
+   PARENT 106
+  }
+  VTX  108, 0, 0
+  {
+   COORD (820,320)
+  }
+  VTX  109, 0, 0
+  {
+   COORD (760,320)
+  }
+  BUS  110, 0, 0
+  {
+   NET 15
+   VTX 108, 109
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  111, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (790,320,790,320)
+   ALIGN 9
+   PARENT 110
+  }
+  VTX  112, 0, 0
+  {
+   COORD (820,360)
+  }
+  VTX  113, 0, 0
+  {
+   COORD (780,360)
+  }
+  WIRE  114, 0, 0
+  {
+   NET 18
+   VTX 112, 113
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  115, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (800,360,800,360)
+   ALIGN 9
+   PARENT 114
+  }
+  VTX  116, 0, 0
+  {
+   COORD (820,400)
+  }
+  VTX  117, 0, 0
+  {
+   COORD (800,400)
+  }
+  WIRE  118, 0, 0
+  {
+   NET 19
+   VTX 116, 117
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  119, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (810,400,810,400)
+   ALIGN 9
+   PARENT 118
+  }
+  VTX  120, 0, 0
+  {
+   COORD (1700,220)
+  }
+  VTX  121, 0, 0
+  {
+   COORD (740,220)
+  }
+  VTX  122, 0, 0
+  {
+   COORD (1720,200)
+  }
+  VTX  123, 0, 0
+  {
+   COORD (760,200)
+  }
+  VTX  124, 0, 0
+  {
+   COORD (1740,180)
+  }
+  VTX  125, 0, 0
+  {
+   COORD (780,180)
+  }
+  VTX  126, 0, 0
+  {
+   COORD (1760,160)
+  }
+  VTX  127, 0, 0
+  {
+   COORD (800,160)
+  }
+  BUS  128, 0, 0
+  {
+   NET 10
+   VTX 120, 121
+  }
+  BUS  129, 0, 0
+  {
+   NET 15
+   VTX 122, 123
+  }
+  WIRE  130, 0, 0
+  {
+   NET 18
+   VTX 124, 125
+  }
+  WIRE  131, 0, 0
+  {
+   NET 19
+   VTX 126, 127
+  }
+  WIRE  132, 0, 0
+  {
+   NET 8
+   VTX 69, 65
+  }
+  BUS  133, 0, 0
+  {
+   NET 10
+   VTX 120, 21
+  }
+  BUS  134, 0, 0
+  {
+   NET 10
+   VTX 121, 105
+  }
+  WIRE  135, 0, 0
+  {
+   NET 11
+   VTX 49, 45
+  }
+  WIRE  136, 0, 0
+  {
+   NET 12
+   VTX 77, 73
+  }
+  WIRE  137, 0, 0
+  {
+   NET 13
+   VTX 53, 57
+  }
+  WIRE  138, 0, 0
+  {
+   NET 14
+   VTX 93, 89
+  }
+  BUS  139, 0, 0
+  {
+   NET 15
+   VTX 122, 25
+  }
+  BUS  140, 0, 0
+  {
+   NET 15
+   VTX 123, 109
+  }
+  BUS  141, 0, 0
+  {
+   NET 16
+   VTX 85, 81
+  }
+  BUS  142, 0, 0
+  {
+   NET 17
+   VTX 97, 101
+  }
+  WIRE  143, 0, 0
+  {
+   NET 18
+   VTX 124, 29
+  }
+  WIRE  144, 0, 0
+  {
+   NET 18
+   VTX 125, 113
+  }
+  WIRE  145, 0, 0
+  {
+   NET 19
+   VTX 126, 33
+  }
+  WIRE  146, 0, 0
+  {
+   NET 19
+   VTX 127, 117
+  }
+ }
+ 
+}
+

@@ -1,0 +1,411 @@
+SCHM0103
+
+HEADER
+{
+ FREEID 35
+ VARIABLES
+ {
+  #ARCHITECTURE="TB"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #ENTITY="test_counter"
+  #LANGUAGE="VHDL"
+  AUTHOR="Admin"
+  COMPANY="4fit"
+  CREATIONDATE="29.04.2016"
+  SOURCE=".\\src\\TEST_COUNTER.vhd"
+ }
+ SYMBOL "Processor" "COUNTER" "COUNTER"
+ {
+  HEADER
+  {
+   VARIABLES
+   {
+    #DESCRIPTION=""
+    #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+    #LANGUAGE="VHDL"
+    #MODIFIED="1461227719"
+   }
+  }
+  PAGE "" 
+  {
+   PAGEHEADER
+   {
+    RECT (0,0,160,120)
+    FREEID 8
+   }
+   
+   BODY
+   {
+    RECT  1, -1, 0
+    {
+     VARIABLES
+     {
+      #OUTLINE_FILLING="1"
+     }
+     AREA (20,0,140,120)
+    }
+    TEXT  3, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,26,25,58)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 2
+    }
+    TEXT  5, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (135,26,135,58)
+     ALIGN 6
+     MARGINS (1,1)
+     PARENT 4
+    }
+    TEXT  7, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,66,25,98)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 6
+    }
+    PIN  2, 0, 0
+    {
+     COORD (0,40)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="CLK"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  4, 0, 0
+    {
+     COORD (160,40)
+     VARIABLES
+     {
+      #DIRECTION="INOUT"
+      #DOWNTO="1"
+      #INITIAL_VALUE="\"00\""
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="Q(1:0)"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (-20,0), (0,0) )
+     }
+    }
+    PIN  6, 0, 0
+    {
+     COORD (0,80)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #MDA_RECORD_TOKEN="OTHER"
+      #NAME="CLR"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+   }
+  }
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"        use ieee.std_logic_1164.all;"
+   RECT (220,260,620,439)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  PROCESS  2, 0, 0
+  {
+   LABEL "process_20"
+   TEXT 
+"process\n"+
+"                         variable ERR_CNT : INTEGER := 0;\n"+
+"                       begin\n"+
+"                         T_CLR <= '0';\n"+
+"                         T_CLK <= '0';\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_Q = \"00\") report \"ERROR1!\" severity ERROR;\n"+
+"                         if (T_Q /= \"00\") then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 10NS;\n"+
+"                         T_CLK <= '1';\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_Q = \"01\") report \"ERROR2!\" severity ERROR;\n"+
+"                         if (T_Q /= \"01\") then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 10NS;\n"+
+"                         T_CLK <= '0';\n"+
+"                         wait for 1NS;\n"+
+"                         T_CLK <= '1';\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_Q = \"10\") report \"ERROR3!\" severity ERROR;\n"+
+"                         if (T_Q /= \"10\") then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 10NS;\n"+
+"                         T_CLK <= '0';\n"+
+"                         wait for 1NS;\n"+
+"                         T_CLK <= '1';\n"+
+"                         wait for 1NS;\n"+
+"                         assert (T_Q = \"11\") report \"ERROR4!\" severity ERROR;\n"+
+"                         if (T_Q /= \"11\") then\n"+
+"                            ERR_CNT := ERR_CNT + 1;\n"+
+"                         end if;\n"+
+"                         wait for 10NS;\n"+
+"                         if ERR_CNT = 0 then\n"+
+"                            assert FALSE report \"TESTBENCH OF COUNTER COMPLETED SUCCESSFULLY!\" severity NOTE;\n"+
+"                         else \n"+
+"                            assert FALSE report \"SOMETHING WRONG. :(\" severity ERROR;\n"+
+"                         end if;\n"+
+"                         wait;\n"+
+"                       end process;\n"+
+"                      "
+   RECT (760,260,1161,660)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWTEXT
+   VTX (  14, 21, 25 )
+   VARIABLES
+   {
+    #UPDATE_SENS_LIST="0"
+   }
+  }
+  INSTANCE  3, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="COUNTER"
+    #LIBRARY="Processor"
+    #REFERENCE="U_COUNTER"
+    #SYMBOL="COUNTER"
+   }
+   COORD (1260,240)
+   VERTEXES ( (4,9), (2,13), (6,17) )
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1260,240,1260,240)
+   ALIGN 8
+   PARENT 3
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#COMPONENT"
+   RECT (1260,360,1260,360)
+   PARENT 3
+  }
+  NET WIRE  6, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_CLK"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET WIRE  7, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T_CLR"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET BUS  8, 0, 0
+  {
+   VARIABLES
+   {
+    #DOWNTO="0"
+    #NAME="T_Q(0:1)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  VTX  9, 0, 0
+  {
+   COORD (1420,280)
+  }
+  VTX  10, 0, 0
+  {
+   COORD (1500,280)
+  }
+  BUS  11, 0, 0
+  {
+   NET 8
+   VTX 9, 10
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  12, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1460,280,1460,280)
+   ALIGN 9
+   PARENT 11
+  }
+  VTX  13, 0, 0
+  {
+   COORD (1260,280)
+  }
+  VTX  14, 0, 0
+  {
+   COORD (1161,280)
+  }
+  WIRE  15, 0, 0
+  {
+   NET 6
+   VTX 13, 14
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  16, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1210,280,1210,280)
+   ALIGN 9
+   PARENT 15
+  }
+  VTX  17, 0, 0
+  {
+   COORD (1260,320)
+  }
+  VTX  18, 0, 0
+  {
+   COORD (1240,320)
+  }
+  WIRE  19, 0, 0
+  {
+   NET 7
+   VTX 17, 18
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  20, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1250,320,1250,320)
+   ALIGN 9
+   PARENT 19
+  }
+  VTX  21, 0, 0
+  {
+   COORD (1161,300)
+  }
+  VTX  22, 0, 0
+  {
+   COORD (1240,300)
+  }
+  WIRE  23, 0, 0
+  {
+   NET 7
+   VTX 21, 22
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  24, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1200,300,1200,300)
+   ALIGN 9
+   PARENT 23
+  }
+  VTX  25, 0, 0
+  {
+   COORD (760,280)
+  }
+  VTX  26, 0, 0
+  {
+   COORD (740,280)
+  }
+  BUS  27, 0, 0
+  {
+   NET 8
+   VTX 25, 26
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  28, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (750,280,750,280)
+   ALIGN 9
+   PARENT 27
+  }
+  VTX  29, 0, 0
+  {
+   COORD (1500,220)
+  }
+  VTX  30, 0, 0
+  {
+   COORD (740,220)
+  }
+  BUS  31, 0, 0
+  {
+   NET 8
+   VTX 29, 30
+  }
+  WIRE  32, 0, 0
+  {
+   NET 7
+   VTX 22, 18
+  }
+  BUS  33, 0, 0
+  {
+   NET 8
+   VTX 29, 10
+  }
+  BUS  34, 0, 0
+  {
+   NET 8
+   VTX 30, 26
+  }
+ }
+ 
+}
+

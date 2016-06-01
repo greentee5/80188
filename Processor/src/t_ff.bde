@@ -1,0 +1,302 @@
+SCHM0103
+
+HEADER
+{
+ FREEID 38
+ VARIABLES
+ {
+  #ARCHITECTURE="BEHV"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #ENTITY="t_ff"
+  #LANGUAGE="VHDL"
+  AUTHOR="Admin"
+  COMPANY="4fit"
+  CREATIONDATE="29.04.2016"
+  SOURCE=".\\src\\T_FF.vhd"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"        use ieee.std_logic_1164.all;"
+   RECT (220,260,620,439)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  PROCESS  2, 0, 0
+  {
+   LABEL "process_12"
+   TEXT 
+"process (EN,T)\n"+
+"                       begin\n"+
+"                         if EN = '1' and T = '1' and T'EVENT then\n"+
+"                            Q <= not Q;\n"+
+"                         end if;\n"+
+"                       end process;\n"+
+"                      "
+   RECT (920,240,1321,520)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWTEXT
+   VTX (  12, 20, 24, 28 )
+   VARIABLES
+   {
+    #UPDATE_SENS_LIST="0"
+   }
+   LIST (  20, 24 )
+  }
+  INSTANCE  3, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="EN"
+    #SYMBOL="Input"
+    #VHDL_TYPE="std_logic"
+   }
+   COORD (760,260)
+   VERTEXES ( (2,21) )
+  }
+  INSTANCE  4, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Bidirectional"
+    #INITIAL_VALUE="'0'"
+    #LIBRARY="#terminals"
+    #REFERENCE="Q"
+    #SYMBOL="Bidirectional"
+    #VHDL_TYPE="std_logic"
+   }
+   COORD (1420,260)
+   VERTEXES ( (2,16) )
+  }
+  INSTANCE  5, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="T"
+    #SYMBOL="Input"
+    #VHDL_TYPE="std_logic"
+   }
+   COORD (760,300)
+   VERTEXES ( (2,25) )
+  }
+  TEXT  6, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (708,260,708,260)
+   ALIGN 6
+   PARENT 3
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1482,260,1482,260)
+   ALIGN 4
+   PARENT 4
+  }
+  TEXT  8, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (708,300,708,300)
+   ALIGN 6
+   PARENT 5
+  }
+  NET WIRE  9, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="EN"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET WIRE  10, 0, 0
+  {
+   VARIABLES
+   {
+    #INITIAL_VALUE="'0'"
+    #NAME="Q"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  NET WIRE  11, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="T"
+    #VHDL_TYPE="std_logic"
+   }
+  }
+  VTX  12, 0, 0
+  {
+   COORD (1321,260)
+  }
+  VTX  13, 0, 0
+  {
+   COORD (1400,260)
+  }
+  WIRE  14, 0, 0
+  {
+   NET 10
+   VTX 12, 13
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  15, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1360,260,1360,260)
+   ALIGN 9
+   PARENT 14
+  }
+  VTX  16, 0, 0
+  {
+   COORD (1420,260)
+  }
+  VTX  17, 0, 0
+  {
+   COORD (1400,260)
+  }
+  WIRE  18, 0, 0
+  {
+   NET 10
+   VTX 16, 17
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  19, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1410,260,1410,260)
+   ALIGN 9
+   PARENT 18
+  }
+  VTX  20, 0, 0
+  {
+   COORD (920,260)
+  }
+  VTX  21, 0, 0
+  {
+   COORD (760,260)
+  }
+  WIRE  22, 0, 0
+  {
+   NET 9
+   VTX 20, 21
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  23, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (840,260,840,260)
+   ALIGN 9
+   PARENT 22
+  }
+  VTX  24, 0, 0
+  {
+   COORD (920,300)
+  }
+  VTX  25, 0, 0
+  {
+   COORD (760,300)
+  }
+  WIRE  26, 0, 0
+  {
+   NET 11
+   VTX 24, 25
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  27, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (840,300,840,300)
+   ALIGN 9
+   PARENT 26
+  }
+  VTX  28, 0, 0
+  {
+   COORD (920,280)
+  }
+  VTX  29, 0, 0
+  {
+   COORD (900,280)
+  }
+  WIRE  30, 0, 0
+  {
+   NET 10
+   VTX 28, 29
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  31, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (910,280,910,280)
+   ALIGN 9
+   PARENT 30
+  }
+  VTX  32, 0, 0
+  {
+   COORD (1400,220)
+  }
+  VTX  33, 0, 0
+  {
+   COORD (900,220)
+  }
+  WIRE  34, 0, 0
+  {
+   NET 10
+   VTX 32, 33
+  }
+  WIRE  35, 0, 0
+  {
+   NET 10
+   VTX 32, 13
+  }
+  WIRE  36, 0, 0
+  {
+   NET 10
+   VTX 13, 17
+  }
+  WIRE  37, 0, 0
+  {
+   NET 10
+   VTX 33, 29
+  }
+ }
+ 
+}
+

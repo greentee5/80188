@@ -1,0 +1,293 @@
+SCHM0103
+
+HEADER
+{
+ FREEID 35
+ VARIABLES
+ {
+  #ARCHITECTURE="BEHV"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #ENTITY="subtractor"
+  #LANGUAGE="VHDL"
+  AUTHOR="Admin"
+  COMPANY="4fit"
+  CREATIONDATE="29.04.2016"
+  SOURCE=".\\src\\SUBTRACTOR.vhd"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"        use ieee.std_logic_1164.all;"
+   RECT (220,260,620,439)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  PROCESS  2, 0, 0
+  {
+   LABEL "process_12"
+   TEXT 
+"process (X,Y)\n"+
+"                         variable B : std_logic;\n"+
+"                       begin\n"+
+"                         B := '0';\n"+
+"                         for I in 0 to 15 loop\n"+
+"                             Z(I) <= X(I) xor (not Y(I)) xor (not B);\n"+
+"                             B := (not X(I) and Y(I)) or (not X(I) and B) or (Y(I) and B);\n"+
+"                         end loop;\n"+
+"                       end process;\n"+
+"                      "
+   RECT (960,240,1361,620)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWTEXT
+   VTX (  17, 21, 29 )
+   VARIABLES
+   {
+    #UPDATE_SENS_LIST="0"
+   }
+   LIST (  21, 29 )
+  }
+  INSTANCE  3, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusInput"
+    #LIBRARY="#terminals"
+    #REFERENCE="X(15:0)"
+    #SYMBOL="BusInput"
+    #VHDL_TYPE="std_logic_vector"
+   }
+   COORD (820,260)
+   VERTEXES ( (2,22) )
+  }
+  INSTANCE  4, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusInput"
+    #LIBRARY="#terminals"
+    #REFERENCE="Y(15:0)"
+    #SYMBOL="BusInput"
+    #VHDL_TYPE="std_logic_vector"
+   }
+   COORD (820,320)
+   VERTEXES ( (2,25) )
+  }
+  INSTANCE  5, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusOutput"
+    #LIBRARY="#terminals"
+    #REFERENCE="Z(15:0)"
+    #SYMBOL="BusOutput"
+    #VHDL_TYPE="std_logic_vector"
+   }
+   COORD (1460,260)
+   VERTEXES ( (2,13) )
+  }
+  TEXT  6, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (768,260,768,260)
+   ALIGN 6
+   PARENT 3
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (768,320,768,320)
+   ALIGN 6
+   PARENT 4
+  }
+  TEXT  8, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1512,260,1512,260)
+   ALIGN 4
+   PARENT 5
+  }
+  NET BUS  9, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="X(15:0)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  NET BUS  10, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="Y(15:0)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  NET BUS  11, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="Z(15:0)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  NET BUS  12, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="Z(I)"
+    #VHDL_TYPE="std_logic_vector"
+   }
+  }
+  VTX  13, 0, 0
+  {
+   COORD (1460,260)
+  }
+  VTX  14, 0, 0
+  {
+   COORD (1440,260)
+  }
+  BUS  15, 0, 0
+  {
+   NET 11
+   VTX 13, 14
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  16, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1450,260,1450,260)
+   ALIGN 9
+   PARENT 15
+  }
+  VTX  17, 0, 0
+  {
+   COORD (1361,260)
+  }
+  VTX  18, 0, 0
+  {
+   COORD (1440,260)
+  }
+  BUS  19, 0, 0
+  {
+   NET 12
+   VTX 17, 18
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  20, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (1400,260,1400,260)
+   ALIGN 9
+   PARENT 19
+  }
+  VTX  21, 0, 0
+  {
+   COORD (960,260)
+  }
+  VTX  22, 0, 0
+  {
+   COORD (820,260)
+  }
+  BUS  23, 0, 0
+  {
+   NET 9
+   VTX 21, 22
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  24, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (890,260,890,260)
+   ALIGN 9
+   PARENT 23
+  }
+  VTX  25, 0, 0
+  {
+   COORD (820,320)
+  }
+  VTX  26, 0, 0
+  {
+   COORD (940,320)
+  }
+  BUS  27, 0, 0
+  {
+   NET 10
+   VTX 25, 26
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  28, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (880,320,880,320)
+   ALIGN 9
+   PARENT 27
+  }
+  VTX  29, 0, 0
+  {
+   COORD (960,280)
+  }
+  VTX  30, 0, 0
+  {
+   COORD (940,280)
+  }
+  BUS  31, 0, 0
+  {
+   NET 10
+   VTX 29, 30
+   VARIABLES
+   {
+    #NAMED="1"
+   }
+  }
+  TEXT  32, 0, 1
+  {
+   TEXT "$#NAME"
+   RECT (950,280,950,280)
+   ALIGN 9
+   PARENT 31
+  }
+  BUS  33, 0, 0
+  {
+   NET 10
+   VTX 30, 26
+  }
+  BUS  34, 0, 0
+  {
+   NET 11
+   VTX 14, 18
+  }
+ }
+ 
+}
+

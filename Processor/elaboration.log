@@ -1,0 +1,25 @@
+elbread.dll ver. 1.0.5.375 Thu Jun 02 01:27:31 2016
+
+
+---------------------------------------
+Entity       | Architecture | Library
+---------------------------------------
+processor    | behv         | Processor
+register_16  | behv         | processor
+addsub       | behv         | processor
+control      | behv         | processor
+counter      | behv         | processor
+register_9   | behv         | processor
+mux10to1     | behv         | processor
+adder        | behv         | processor
+subtractor   | behv         | processor
+decoder_3_8  | behv         | processor
+t_ff         | behv         | processor
+---------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+std_logic_1164  | ieee
+-------------------------

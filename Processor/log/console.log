@@ -1,0 +1,653 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design Explorer: Shortcut to "C:\My_Designs\Processor\Processor.aws" design added.
+acom $DSN/src/adder.vhd $DSN/src/addsub.vhd $DSN/src/control.vhd $DSN/src/counter.vhd $DSN/src/decoder_3_8.vhd $DSN/src/demonstration.vhd $DSN/src/ir.vhd $DSN/src/mux10to1.vhd $DSN/src/processor.vhd $DSN/src/register_9.vhd $DSN/src/register_16.vhd $DSN/src/sub.vhd $DSN/src/subtractor.vhd $DSN/src/t_ff.vhd $DSN/src/test_control.vhd $DSN/src/test_counter.vhd $DSN/src/test_processor.vhd $DSN/src/testmux.vhd $DSN/src/test_control.bde $DSN/src/test_processor.bde $DSN/src/processor.bde $DSN/src/adder.bde $DSN/src/addsub.bde $DSN/src/sub.bde $DSN/src/control.bde $DSN/src/counter.bde $DSN/src/decoder_3_8.bde $DSN/src/demonstration.bde $DSN/src/ir.bde $DSN/src/mux10to1.bde $DSN/src/register_16.bde $DSN/src/register_9.bde $DSN/src/subtractor.bde $DSN/src/testmux.bde $DSN/src/test_counter.bde $DSN/src/t_ff.bde
+# Compile...
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\test_control.bde'.
+# DRC: Warning: test_control.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\test_control.vhd from C:\My_Designs\Processor\Processor\src\test_control.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\test_processor.bde'.
+# DRC: Warning: test_processor.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\test_processor.vhd from C:\My_Designs\Processor\Processor\src\test_processor.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\processor.bde'.
+# DRC: Warning: processor.bde - 0 error(s), 4 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\processor.vhd from C:\My_Designs\Processor\Processor\src\processor.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\adder.bde'.
+# DRC: Warning: adder.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\adder.vhd from C:\My_Designs\Processor\Processor\src\adder.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\addsub.bde'.
+# DRC: addsub.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\addsub.vhd from C:\My_Designs\Processor\Processor\src\addsub.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\sub.bde'.
+# DRC: Warning: sub.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\sub.vhd from C:\My_Designs\Processor\Processor\src\sub.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\control.bde'.
+# DRC: Warning: control.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\control.vhd from C:\My_Designs\Processor\Processor\src\control.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\counter.bde'.
+# DRC: Warning: counter.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\counter.vhd from C:\My_Designs\Processor\Processor\src\counter.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\decoder_3_8.bde'.
+# DRC: decoder_3_8.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\decoder_3_8.vhd from C:\My_Designs\Processor\Processor\src\decoder_3_8.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\demonstration.bde'.
+# DRC: Warning: demonstration.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\demonstration.vhd from C:\My_Designs\Processor\Processor\src\demonstration.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\ir.bde'.
+# DRC: ir.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\ir.vhd from C:\My_Designs\Processor\Processor\src\ir.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\mux10to1.bde'.
+# DRC: mux10to1.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\mux10to1.vhd from C:\My_Designs\Processor\Processor\src\mux10to1.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\register_16.bde'.
+# DRC: register_16.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\register_16.vhd from C:\My_Designs\Processor\Processor\src\register_16.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\register_9.bde'.
+# DRC: register_9.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\register_9.vhd from C:\My_Designs\Processor\Processor\src\register_9.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\subtractor.bde'.
+# DRC: Warning: subtractor.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\subtractor.vhd from C:\My_Designs\Processor\Processor\src\subtractor.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\testmux.bde'.
+# DRC: testmux.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\testmux.vhd from C:\My_Designs\Processor\Processor\src\testmux.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\test_counter.bde'.
+# DRC: Warning: test_counter.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\test_counter.vhd from C:\My_Designs\Processor\Processor\src\test_counter.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\t_ff.bde'.
+# DRC: Warning: t_ff.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\t_ff.vhd from C:\My_Designs\Processor\Processor\src\t_ff.bde ...
+# Generation successful
+# File: C:\My_Designs\Processor\Processor\src\ADDER.vhd
+# Compile Entity "ADDER"
+# Compile Architecture "BEHV" of Entity "ADDER"
+# File: C:\My_Designs\Processor\Processor\src\ADDSUB.vhd
+# Compile Entity "ADDSUB"
+# Compile Architecture "BEHV" of Entity "ADDSUB"
+# File: C:\My_Designs\Processor\Processor\src\CONTROL.vhd
+# Compile Entity "CONTROL"
+# Compile Architecture "BEHV" of Entity "CONTROL"
+# File: C:\My_Designs\Processor\Processor\src\COUNTER.vhd
+# Compile Entity "COUNTER"
+# Compile Architecture "BEHV" of Entity "COUNTER"
+# File: C:\My_Designs\Processor\Processor\src\DECODER_3_8.vhd
+# Compile Entity "DECODER_3_8"
+# Compile Architecture "BEHV" of Entity "DECODER_3_8"
+# File: C:\My_Designs\Processor\Processor\src\DEMONSTRATION.vhd
+# Compile Entity "DEMONSTRATION"
+# Compile Architecture "TB" of Entity "DEMONSTRATION"
+# File: C:\My_Designs\Processor\Processor\src\IR.vhd
+# Compile Entity "IR"
+# Compile Architecture "BEHV" of Entity "IR"
+# File: C:\My_Designs\Processor\Processor\src\MUX10TO1.vhd
+# Compile Entity "MUX10TO1"
+# Compile Architecture "behv" of Entity "mux10to1"
+# File: C:\My_Designs\Processor\Processor\src\PROCESSOR.vhd
+# Compile Entity "PROCESSOR"
+# Compile Architecture "BEHV" of Entity "PROCESSOR"
+# File: C:\My_Designs\Processor\Processor\src\REGISTER_9.vhd
+# Compile Entity "REGISTER_9"
+# Compile Architecture "BEHV" of Entity "REGISTER_9"
+# File: C:\My_Designs\Processor\Processor\src\REGISTER_16.vhd
+# Compile Entity "REGISTER_16"
+# Compile Architecture "BEHV" of Entity "REGISTER_16"
+# File: C:\My_Designs\Processor\Processor\src\SUB.vhd
+# Compile Entity "SUB"
+# Compile Architecture "BEHV" of Entity "SUB"
+# File: C:\My_Designs\Processor\Processor\src\SUBTRACTOR.vhd
+# Compile Entity "SUBTRACTOR"
+# Compile Architecture "BEHV" of Entity "SUBTRACTOR"
+# File: C:\My_Designs\Processor\Processor\src\T_FF.vhd
+# Compile Entity "T_FF"
+# Compile Architecture "BEHV" of Entity "T_FF"
+# File: C:\My_Designs\Processor\Processor\src\TEST_CONTROL.vhd
+# Compile Entity "TEST_CONTROL"
+# Compile Architecture "TB" of Entity "TEST_CONTROL"
+# File: C:\My_Designs\Processor\Processor\src\TEST_COUNTER.vhd
+# Compile Entity "TEST_COUNTER"
+# Compile Architecture "TB" of Entity "TEST_COUNTER"
+# File: C:\My_Designs\Processor\Processor\src\TEST_PROCESSOR.vhd
+# Compile Entity "TEST_PROCESSOR"
+# Compile Architecture "TB" of Entity "TEST_PROCESSOR"
+# File: C:\My_Designs\Processor\Processor\src\TESTMUX.vhd
+# Compile Entity "TESTMUX"
+# Compile Architecture "TB" of Entity "TESTMUX"
+# Compile Configuration "CFG_TB"
+# File: .\test_control.vhd
+# Compile Entity "test_control"
+# Compile Architecture "TB" of Entity "test_control"
+# File: .\test_processor.vhd
+# Compile Entity "test_processor"
+# Compile Architecture "TB" of Entity "test_processor"
+# File: .\processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "BEHV" of Entity "processor"
+# File: .\adder.vhd
+# Compile Entity "adder"
+# Compile Architecture "BEHV" of Entity "adder"
+# File: .\addsub.vhd
+# Compile Entity "addsub"
+# Compile Architecture "BEHV" of Entity "addsub"
+# File: .\sub.vhd
+# Compile Entity "sub"
+# Compile Architecture "BEHV" of Entity "sub"
+# File: .\control.vhd
+# Compile Entity "control"
+# Compile Architecture "BEHV" of Entity "control"
+# File: .\counter.vhd
+# Compile Entity "counter"
+# Compile Architecture "BEHV" of Entity "counter"
+# File: .\decoder_3_8.vhd
+# Compile Entity "decoder_3_8"
+# Compile Architecture "BEHV" of Entity "decoder_3_8"
+# File: .\demonstration.vhd
+# Compile Entity "demonstration"
+# Compile Architecture "TB" of Entity "demonstration"
+# File: .\ir.vhd
+# Compile Entity "ir"
+# Compile Architecture "BEHV" of Entity "ir"
+# File: .\mux10to1.vhd
+# Compile Entity "mux10to1"
+# Compile Architecture "behv" of Entity "mux10to1"
+# File: .\register_16.vhd
+# Compile Entity "register_16"
+# Compile Architecture "BEHV" of Entity "register_16"
+# File: .\register_9.vhd
+# Compile Entity "register_9"
+# Compile Architecture "BEHV" of Entity "register_9"
+# File: .\subtractor.vhd
+# Compile Entity "subtractor"
+# Compile Architecture "BEHV" of Entity "subtractor"
+# File: .\testmux.vhd
+# Compile Entity "testmux"
+# Compile Architecture "TB" of Entity "testmux"
+# File: .\test_counter.vhd
+# Compile Entity "test_counter"
+# Compile Architecture "TB" of Entity "test_counter"
+# File: .\t_ff.vhd
+# Compile Entity "t_ff"
+# Compile Architecture "BEHV" of Entity "t_ff"
+# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\ADDER.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\ADDSUB.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\CONTROL.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\COUNTER.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\DECODER_3_8.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\DEMONSTRATION.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\IR.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\MUX10TO1.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\PROCESSOR.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\REGISTER_9.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\REGISTER_16.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\SUB.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\SUBTRACTOR.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\T_FF.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\TEST_CONTROL.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\TEST_COUNTER.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\TEST_PROCESSOR.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\My_Designs\Processor\Processor\src\TESTMUX.vhd ...
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\Processor.erf ...
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\ADDER.vhd
+# CODE2GRAPHICS: Checking Entity "ADDER"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "ADDER"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\ADDSUB.vhd
+# CODE2GRAPHICS: Checking Entity "ADDSUB"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "ADDSUB"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\CONTROL.vhd
+# CODE2GRAPHICS: Checking Entity "CONTROL"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "CONTROL"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\COUNTER.vhd
+# CODE2GRAPHICS: Checking Entity "COUNTER"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "COUNTER"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\DECODER_3_8.vhd
+# CODE2GRAPHICS: Checking Entity "DECODER_3_8"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "DECODER_3_8"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\DEMONSTRATION.vhd
+# CODE2GRAPHICS: Checking Entity "DEMONSTRATION"
+# CODE2GRAPHICS: Checking Architecture "TB" of Entity "DEMONSTRATION"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\IR.vhd
+# CODE2GRAPHICS: Checking Entity "IR"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "IR"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\MUX10TO1.vhd
+# CODE2GRAPHICS: Checking Entity "MUX10TO1"
+# CODE2GRAPHICS: Checking Architecture "behv" of Entity "mux10to1"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\PROCESSOR.vhd
+# CODE2GRAPHICS: Checking Entity "PROCESSOR"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "PROCESSOR"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\REGISTER_9.vhd
+# CODE2GRAPHICS: Checking Entity "REGISTER_9"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "REGISTER_9"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\REGISTER_16.vhd
+# CODE2GRAPHICS: Checking Entity "REGISTER_16"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "REGISTER_16"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\SUB.vhd
+# CODE2GRAPHICS: Checking Entity "SUB"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "SUB"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\SUBTRACTOR.vhd
+# CODE2GRAPHICS: Checking Entity "SUBTRACTOR"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "SUBTRACTOR"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\T_FF.vhd
+# CODE2GRAPHICS: Checking Entity "T_FF"
+# CODE2GRAPHICS: Checking Architecture "BEHV" of Entity "T_FF"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\TEST_CONTROL.vhd
+# CODE2GRAPHICS: Checking Entity "TEST_CONTROL"
+# CODE2GRAPHICS: Checking Architecture "TB" of Entity "TEST_CONTROL"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\TEST_COUNTER.vhd
+# CODE2GRAPHICS: Checking Entity "TEST_COUNTER"
+# CODE2GRAPHICS: Checking Architecture "TB" of Entity "TEST_COUNTER"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\TEST_PROCESSOR.vhd
+# CODE2GRAPHICS: Checking Entity "TEST_PROCESSOR"
+# CODE2GRAPHICS: Checking Architecture "TB" of Entity "TEST_PROCESSOR"
+# CODE2GRAPHICS: File: C:\My_Designs\Processor\Processor\src\TESTMUX.vhd
+# CODE2GRAPHICS: Checking Entity "TESTMUX"
+# CODE2GRAPHICS: Checking Architecture "TB" of Entity "TESTMUX"
+# CODE2GRAPHICS: Checking Configuration "CFG_TB"
+# CODE2GRAPHICS: Checking success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\adder_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\addsub_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\control_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\counter_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\decoder_3_8_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\demonstration_TB.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\ir_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\mux10to1_behv.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\processor_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\register_16_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\register_9_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\subtractor_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\sub_BEHV.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\testmux_TB.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\GREENT~1\AppData\Local\Temp\Processor\test_control_TB.lid ...
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7734748.tmp into file C:\My_Designs\Processor\Processor\src\adder.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\773474A.tmp into file C:\My_Designs\Processor\Processor\src\addsub.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\773474C.tmp into file C:\My_Designs\Processor\Processor\src\control.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\773474E.tmp into file C:\My_Designs\Processor\Processor\src\counter.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7754760.tmp into file C:\My_Designs\Processor\Processor\src\decoder_3_8.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7754762.tmp into file C:\My_Designs\Processor\Processor\src\demonstration.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7754764.tmp into file C:\My_Designs\Processor\Processor\src\ir.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7754766.tmp into file C:\My_Designs\Processor\Processor\src\mux10to1.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7754768.tmp into file C:\My_Designs\Processor\Processor\src\processor.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\775476A.tmp into file C:\My_Designs\Processor\Processor\src\register_16.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\775476C.tmp into file C:\My_Designs\Processor\Processor\src\register_9.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\775476E.tmp into file C:\My_Designs\Processor\Processor\src\subtractor.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7754770.tmp into file C:\My_Designs\Processor\Processor\src\sub.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7754772.tmp into file C:\My_Designs\Processor\Processor\src\testmux.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7764783.tmp into file C:\My_Designs\Processor\Processor\src\test_control.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7764785.tmp into file C:\My_Designs\Processor\Processor\src\test_counter.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7764787.tmp into file C:\My_Designs\Processor\Processor\src\test_processor.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\GREENT~1\AppData\Local\Temp\7764789.tmp into file C:\My_Designs\Processor\Processor\src\t_ff.bde
+# CODE2GRAPHICS: 18 unit(s) converted to Block Diagram(s)
+# CODE2GRAPHICS: 0 unit(s) converted to State Diagram(s)
+# CODE2GRAPHICS: Double click on this line to view the generated log file
+acom $DSN/src/processor.bde
+# Compile...
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\processor.bde'.
+# DRC: Warning: processor.bde - 0 error(s), 4 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\processor.vhd from C:\My_Designs\Processor\Processor\src\processor.bde ...
+# Generation successful
+# File: .\processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "BEHV" of Entity "processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/adder.vhd $DSN/src/addsub.vhd $DSN/src/control.vhd $DSN/src/counter.vhd $DSN/src/decoder_3_8.vhd $DSN/src/demonstration.vhd $DSN/src/ir.vhd $DSN/src/mux10to1.vhd $DSN/src/processor.vhd $DSN/src/register_9.vhd $DSN/src/register_16.vhd $DSN/src/sub.vhd $DSN/src/subtractor.vhd $DSN/src/t_ff.vhd $DSN/src/test_control.vhd $DSN/src/test_counter.vhd $DSN/src/test_processor.vhd $DSN/src/testmux.vhd $DSN/src/adder.bde $DSN/src/addsub.bde $DSN/src/control.bde $DSN/src/counter.bde $DSN/src/decoder_3_8.bde $DSN/src/demonstration.bde $DSN/src/ir.bde $DSN/src/mux10to1.bde $DSN/src/processor.bde $DSN/src/register_16.bde $DSN/src/register_9.bde $DSN/src/subtractor.bde $DSN/src/sub.bde $DSN/src/testmux.bde $DSN/src/test_control.bde $DSN/src/test_counter.bde $DSN/src/test_processor.bde $DSN/src/t_ff.bde
+# Compile...
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\adder.bde'.
+# DRC: Warning: adder.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\adder.vhd from C:\My_Designs\Processor\Processor\src\adder.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\addsub.bde'.
+# DRC: addsub.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\addsub.vhd from C:\My_Designs\Processor\Processor\src\addsub.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\control.bde'.
+# DRC: Warning: control.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\control.vhd from C:\My_Designs\Processor\Processor\src\control.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\counter.bde'.
+# DRC: Warning: counter.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\counter.vhd from C:\My_Designs\Processor\Processor\src\counter.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\decoder_3_8.bde'.
+# DRC: decoder_3_8.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\decoder_3_8.vhd from C:\My_Designs\Processor\Processor\src\decoder_3_8.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\demonstration.bde'.
+# DRC: Warning: demonstration.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\demonstration.vhd from C:\My_Designs\Processor\Processor\src\demonstration.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\ir.bde'.
+# DRC: ir.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\ir.vhd from C:\My_Designs\Processor\Processor\src\ir.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\mux10to1.bde'.
+# DRC: mux10to1.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\mux10to1.vhd from C:\My_Designs\Processor\Processor\src\mux10to1.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\register_16.bde'.
+# DRC: register_16.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\register_16.vhd from C:\My_Designs\Processor\Processor\src\register_16.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\register_9.bde'.
+# DRC: register_9.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\register_9.vhd from C:\My_Designs\Processor\Processor\src\register_9.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\subtractor.bde'.
+# DRC: Warning: subtractor.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\subtractor.vhd from C:\My_Designs\Processor\Processor\src\subtractor.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\sub.bde'.
+# DRC: Warning: sub.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\sub.vhd from C:\My_Designs\Processor\Processor\src\sub.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\testmux.bde'.
+# DRC: testmux.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\testmux.vhd from C:\My_Designs\Processor\Processor\src\testmux.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\test_control.bde'.
+# DRC: Warning: test_control.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\test_control.vhd from C:\My_Designs\Processor\Processor\src\test_control.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\test_counter.bde'.
+# DRC: Warning: test_counter.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\test_counter.vhd from C:\My_Designs\Processor\Processor\src\test_counter.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\test_processor.bde'.
+# DRC: Warning: test_processor.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\test_processor.vhd from C:\My_Designs\Processor\Processor\src\test_processor.bde ...
+# Generation successful
+# DRC: Checking file 'C:\My_Designs\Processor\Processor\src\t_ff.bde'.
+# DRC: Warning: t_ff.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\My_Designs\Processor\Processor\compile\t_ff.vhd from C:\My_Designs\Processor\Processor\src\t_ff.bde ...
+# Generation successful
+# File: C:\My_Designs\Processor\Processor\src\ADDER.vhd
+# Compile Entity "ADDER"
+# Compile Architecture "BEHV" of Entity "ADDER"
+# File: C:\My_Designs\Processor\Processor\src\ADDSUB.vhd
+# Compile Entity "ADDSUB"
+# Compile Architecture "BEHV" of Entity "ADDSUB"
+# File: C:\My_Designs\Processor\Processor\src\CONTROL.vhd
+# Compile Entity "CONTROL"
+# Compile Architecture "BEHV" of Entity "CONTROL"
+# File: C:\My_Designs\Processor\Processor\src\COUNTER.vhd
+# Compile Entity "COUNTER"
+# Compile Architecture "BEHV" of Entity "COUNTER"
+# File: C:\My_Designs\Processor\Processor\src\DECODER_3_8.vhd
+# Compile Entity "DECODER_3_8"
+# Compile Architecture "BEHV" of Entity "DECODER_3_8"
+# File: C:\My_Designs\Processor\Processor\src\DEMONSTRATION.vhd
+# Compile Entity "DEMONSTRATION"
+# Compile Architecture "TB" of Entity "DEMONSTRATION"
+# File: C:\My_Designs\Processor\Processor\src\IR.vhd
+# Compile Entity "IR"
+# Compile Architecture "BEHV" of Entity "IR"
+# File: C:\My_Designs\Processor\Processor\src\MUX10TO1.vhd
+# Compile Entity "MUX10TO1"
+# Compile Architecture "behv" of Entity "mux10to1"
+# File: C:\My_Designs\Processor\Processor\src\PROCESSOR.vhd
+# Compile Entity "PROCESSOR"
+# Compile Architecture "BEHV" of Entity "PROCESSOR"
+# File: C:\My_Designs\Processor\Processor\src\REGISTER_9.vhd
+# Compile Entity "REGISTER_9"
+# Compile Architecture "BEHV" of Entity "REGISTER_9"
+# File: C:\My_Designs\Processor\Processor\src\REGISTER_16.vhd
+# Compile Entity "REGISTER_16"
+# Compile Architecture "BEHV" of Entity "REGISTER_16"
+# File: C:\My_Designs\Processor\Processor\src\SUB.vhd
+# Compile Entity "SUB"
+# Compile Architecture "BEHV" of Entity "SUB"
+# File: C:\My_Designs\Processor\Processor\src\SUBTRACTOR.vhd
+# Compile Entity "SUBTRACTOR"
+# Compile Architecture "BEHV" of Entity "SUBTRACTOR"
+# File: C:\My_Designs\Processor\Processor\src\T_FF.vhd
+# Compile Entity "T_FF"
+# Compile Architecture "BEHV" of Entity "T_FF"
+# File: C:\My_Designs\Processor\Processor\src\TEST_CONTROL.vhd
+# Compile Entity "TEST_CONTROL"
+# Compile Architecture "TB" of Entity "TEST_CONTROL"
+# File: C:\My_Designs\Processor\Processor\src\TEST_COUNTER.vhd
+# Compile Entity "TEST_COUNTER"
+# Compile Architecture "TB" of Entity "TEST_COUNTER"
+# File: C:\My_Designs\Processor\Processor\src\TEST_PROCESSOR.vhd
+# Compile Entity "TEST_PROCESSOR"
+# Compile Architecture "TB" of Entity "TEST_PROCESSOR"
+# File: C:\My_Designs\Processor\Processor\src\TESTMUX.vhd
+# Compile Entity "TESTMUX"
+# Compile Architecture "TB" of Entity "TESTMUX"
+# Compile Configuration "CFG_TB"
+# File: .\adder.vhd
+# Compile Entity "adder"
+# Compile Architecture "BEHV" of Entity "adder"
+# File: .\addsub.vhd
+# Compile Entity "addsub"
+# Compile Architecture "BEHV" of Entity "addsub"
+# File: .\control.vhd
+# Compile Entity "control"
+# Compile Architecture "BEHV" of Entity "control"
+# File: .\counter.vhd
+# Compile Entity "counter"
+# Compile Architecture "BEHV" of Entity "counter"
+# File: .\decoder_3_8.vhd
+# Compile Entity "decoder_3_8"
+# Compile Architecture "BEHV" of Entity "decoder_3_8"
+# File: .\demonstration.vhd
+# Compile Entity "demonstration"
+# Compile Architecture "TB" of Entity "demonstration"
+# File: .\ir.vhd
+# Compile Entity "ir"
+# Compile Architecture "BEHV" of Entity "ir"
+# File: .\mux10to1.vhd
+# Compile Entity "mux10to1"
+# Compile Architecture "behv" of Entity "mux10to1"
+# File: .\processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "BEHV" of Entity "processor"
+# File: .\register_16.vhd
+# Compile Entity "register_16"
+# Compile Architecture "BEHV" of Entity "register_16"
+# File: .\register_9.vhd
+# Compile Entity "register_9"
+# Compile Architecture "BEHV" of Entity "register_9"
+# File: .\subtractor.vhd
+# Compile Entity "subtractor"
+# Compile Architecture "BEHV" of Entity "subtractor"
+# File: .\sub.vhd
+# Compile Entity "sub"
+# Compile Architecture "BEHV" of Entity "sub"
+# File: .\testmux.vhd
+# Compile Entity "testmux"
+# Compile Architecture "TB" of Entity "testmux"
+# File: .\test_control.vhd
+# Compile Entity "test_control"
+# Compile Architecture "TB" of Entity "test_control"
+# File: .\test_counter.vhd
+# Compile Entity "test_counter"
+# Compile Architecture "TB" of Entity "test_counter"
+# File: .\test_processor.vhd
+# Compile Entity "test_processor"
+# Compile Architecture "TB" of Entity "test_processor"
+# File: .\t_ff.vhd
+# Compile Entity "t_ff"
+# Compile Architecture "BEHV" of Entity "t_ff"
+# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
+# Design: Design Processor already active.
+# Design: Design Processor already active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  adder behv
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1741 kB (elbread=1031 elab2=428 kernel=281 sdf=0)
+#  1:25, 2 θώνÿ 2016 γ.
+#  Simulation has been initialized
+#  Selected Top-Level: adder (behv)
+run
+# KERNEL: stopped at time: 10 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  processor behv
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1819 kB (elbread=1032 elab2=495 kernel=291 sdf=0)
+#  1:25, 2 θώνÿ 2016 γ.
+#  Simulation has been initialized
+#  Selected Top-Level: processor (behv)
+run
+# KERNEL: stopped at time: 10 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+run
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+endsim
+#  Simulation has been stopped
+asim -advdataflow  processor behv
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1819 kB (elbread=1032 elab2=495 kernel=291 sdf=0)
+#  1:26, 2 θώνÿ 2016 γ.
+#  Simulation has been initialized
+#  Selected Top-Level: processor (behv)
+run
+# KERNEL: stopped at time: 10 us
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+run
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+endsim
+#  Simulation has been stopped

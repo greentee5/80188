@@ -1,0 +1,20 @@
+[Files List]
+C:\Program Files (x86)\Aldec\Active-HDL 7.1\Vlib\Std/src/standard.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 7.1\Vlib\IEEE/src/stdlogic.vhd=S
+C:\My_Designs\Processor\Processor/src/T_FF.vhd=S
+C:\My_Designs\Processor\Processor/compile/t_ff.vhd=S
+C:\My_Designs\Processor\Processor/src/DECODER_3_8.vhd=S
+C:\My_Designs\Processor\Processor/compile/decoder_3_8.vhd=S
+C:\My_Designs\Processor\Processor/src/SUBTRACTOR.vhd=S
+C:\My_Designs\Processor\Processor/compile/subtractor.vhd=S
+C:\My_Designs\Processor\Processor/src/ADDER.vhd=S
+C:\My_Designs\Processor\Processor/compile/adder.vhd=S
+C:\My_Designs\Processor\Processor/src/REGISTER_16.vhd=S
+C:\My_Designs\Processor\Processor/compile/register_16.vhd=S
+C:\My_Designs\Processor\Processor/compile/mux10to1.vhd=S
+C:\My_Designs\Processor\Processor/src/REGISTER_9.vhd=S
+C:\My_Designs\Processor\Processor/compile/register_9.vhd=S
+C:\My_Designs\Processor\Processor/compile/counter.vhd=S
+C:\My_Designs\Processor\Processor/compile/control.vhd=S
+C:\My_Designs\Processor\Processor/compile/addsub.vhd=S
+C:\My_Designs\Processor\Processor/compile/processor.vhd=S
